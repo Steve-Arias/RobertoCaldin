@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Caldin</title>
+    <script src="./js/shopbutton.js"></script>
+    <script src="./js/shopbutton.js"></script>
+    <link rel="shortcut icon" href="./img/favicon/fav-desktop.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section id="home">
+        <div class="content">
+            <div class="logo-header"><a href="index.html">ROBERTO CALDIN</a></div>
+            <header>
+                <nav class="nav">
+                    <div class="hide-desktop">
+                        <!-- <img src="./img/hamburger.svg" alt="toggle-menu" class="menu" id="menu"> -->
+                    </div>
+                    <ul class="show-desktop hide-mobile" id="nav">
+                        <li class="nav-li"><a href="index.html" class=""><span>Home</span></a></li>
+                        <li class="nav-li"><a href="shop.html" class=""><span>Shop</span></a></li>
+                        <li class="nav-li"><a href="about.html" class=""><span>About</span></a></li>
+                        <li class="nav-li"><a href="social.html" class=""><span>Social Media</span></a>
+                        </li>
+                        <li class="nav-li"><a href="policy.html" class=""><span>Policy</span></a></li>
+                        <li class="nav-li"><a href="contact.html" class="active is-active"><span>Contact</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="contact-sec">
+                <div class="container">
+                    <form action="" method="POST">
+                        <div class="form-container">
+                            <h1>CONTACT US</h1>
+                            <div class="form-content">
+                                <label for="txt-name">Name:</label>
+                                <input type="text" name="fullName" id="txt-name" placeholder="Full name" required>
+                            </div>
+                            <div class="form-content">
+                                <div class="custom-select-wrapper">
+                                    <div class="custom-select">
+                                        <div class="custom-select__trigger"><span>GENERAL INQUIRY</span>
+                                            <div class="arrow"></div>
+                                        </div>
+                                        <div class="custom-options">
+                                            <span class="custom-option selected" data-value="General">GENERAL
+                                                INQUIRY</span>
+                                            <span class="custom-option" data-value="Order">ORDER STATUS</span>
+                                            <span class="custom-option" data-value="Other">OTHER</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-content">
+                                <label for="txt-email">Email:</label>
+                                <input type="text" name="emailAddress" id="txt-email" placeholder="Email" required>
+                            </div>
+
+                            <div class=" form-content">
+                                <label>Message:</label>
+                                <textarea name="message" required></textarea>
+                            </div>
+                            <button class="message-btn" name="Submit">Send</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="hide-btn" id='product-component-1590284812752'></div>
+            <script src="./js/customselect.js"></script>
+        </div>
+    </section>
+</body>
+
+</html>

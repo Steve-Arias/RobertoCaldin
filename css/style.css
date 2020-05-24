@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("reset.css");
+
+body {
+    width: 100%;
+    margin: 0 auto 0;
+    background-color: black;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 1px 0 0 20px;
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a {
+
+    letter-spacing: 2px;
+    display: block;
+    color: white;
+    padding: 8px 30px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+nav ul li a:hover {
+
+    color: #457BAD;
+}
+
+
+.nav a span {
+    position: relative;
+}
+
+.nav a span:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.35rem;
+    width: 100%;
+    height: 1px;
+    /*background-color: rgba(255, 255, 255, 0.25);*/
+    background-color: #457BAD;
+    transition: -webkit-transform .75s ease;
+    transition: transform .75s ease, -webkit-transform .75s ease;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+}
+
+.nav a:hover span:before,
+.nav a.is-active span:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+}
+
+.active {
+    color: #457BAD;
+}
+
+
+.logo-header {
+    text-align: center;
+    margin: 1.3em 0;
+}
+
+.logo-header a {
+    font-size: 1.2em;
+    font-family: trajan-pro-3, serif;
+    font-style: normal;
+    font-weight: lighter;
+    padding: 0;
+    letter-spacing: 8px;
+    margin: 0;
+    color: white;
+    transition: all .75s ease;
+}
+
+.logo-header:hover a {
+    color: #457BAD;
+}
+
+.background-wrap {
+
+    overflow: hidden;
+    top: 0;
+    left: 0;
+
+}
+
+.bg-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.shop-btn {
+    margin-top: 220px;
+    text-decoration: none !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Policy Styles */
+.policy-section {
+    color: white;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -170px;
+}
+
+.policy-section p,
+h1 {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    font-size: .9em;
+}
+
+.policy-section .links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.policy-section .links ul li {
+    float: left;
+
+}
+
+.policy-section .links ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.policy-section .links ul li a:hover {
+
+    color: #457BAD;
+
+}
+
+.hide-btn {
+    display: none !important;
+}
+
+
+/* Contact Style */
+
+.contact-sec {
+    margin-top: -160px;
+}
+
+.contact-sec form {
+    background: black;
+    width: 80%;
+    height: 60%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+.contact-sec form h1 {
+    margin-top: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.form-content {
+    border: 1px groove white;
+    margin: 10px 0;
+    padding: 6px 18px;
+    color: white;
+    width: 110%;
+    margin-left: -9.5%;
+}
+
+.form-content label {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.form-content input,
+.form-content textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    color: white;
+}
+
+.message-btn {
+    all: unset;
+    display: block;
+    background: RGBA(69, 123, 173, 0.65);
+    padding: 14px 0;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 9px;
+    width: 119%;
+    margin-left: -9.5%;
+}
+
+.message-btn:hover {
+
+    color: #457BAD;
+}
+
+.custom-select-wrapper {
+    position: relative;
+    user-select: none;
+}
+
+.custom-select {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-width: 0 2px 0 2px;
+    border-style: none;
+}
+
+.custom-select__trigger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 auto;
+    color: white;
+    height: 30px;
+    line-height: 60px;
+    background: black;
+    cursor: pointer;
+    border-style: none;
+}
+
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-top: 0;
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.custom-select.open .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 22px 0 22px;
+    color: white;
+    background-color: black;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.custom-option:hover {
+    cursor: pointer;
+    color: #305c91;
+}
+
+.custom-option.selected {
+    color: #305c91;
+}
+
+.arrow {
+    position: relative;
+    height: 15px;
+    width: 15px;
+}
+
+.arrow::before,
+.arrow::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 0.1rem;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.arrow::before {
+    left: -5px;
+    transform: rotate(-45deg);
+    background-color: #394a6d;
+}
+
+.arrow::after {
+    left: 5px;
+    transform: rotate(45deg);
+    background-color: #394a6d;
+}
+
+.open .arrow::before {
+    left: -5px;
+    transform: rotate(45deg);
+}
+
+.open .arrow::after {
+    left: -5px;
+    transform: rotate(-45deg);
+}
