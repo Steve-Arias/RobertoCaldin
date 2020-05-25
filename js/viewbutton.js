@@ -25,7 +25,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '4496681402506',
-        node: document.getElementById('product-component-1590369211498'),
+        node: document.getElementById('product-component-1590368729361'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
           "product": {
@@ -40,24 +40,26 @@
               "button": {
                 "font-weight": "bold",
                 ":hover": {
-                  "background-color": "#3e6f9c"
+                  "background-color": "#457BAD"
                 },
-                "background-color": "#457bad",
+                "background-color": "RGBA(69,123,173,0.65)",
                 ":focus": {
-                  "background-color": "#3e6f9c"
+                  "background-color": "#457bad"
                 },
                 "border-radius": "0px",
                 "padding-left": "56px",
                 "padding-right": "56px"
               }
             },
+            "buttonDestination": "modal",
             "contents": {
               "img": false,
               "title": false,
-              "price": false
+              "price": false,
+              "options": false
             },
             "text": {
-              "button": "Add to cart"
+              "button": "View product"
             }
           },
           "productSet": {
@@ -87,11 +89,11 @@
               "button": {
                 "font-weight": "bold",
                 ":hover": {
-                  "background-color": "#3e6f9c"
+                  "background-color": "#457BAD"
                 },
-                "background-color": "#457bad",
+                "background-color": "RGBA(69,123,173,0.65)",
                 ":focus": {
-                  "background-color": "#3e6f9c"
+                  "background-color": "#457BAD"
                 },
                 "border-radius": "0px",
                 "padding-left": "56px",
@@ -130,16 +132,26 @@
               }
             }
           },
+          "option": {
+            "styles": {
+              "label": {
+                "font-family": "Avant Garde, sans-serif"
+              },
+              "select": {
+                "font-family": "Avant Garde, sans-serif"
+              }
+            }
+          },
           "cart": {
             "styles": {
               "button": {
                 "font-weight": "bold",
                 ":hover": {
-                  "background-color": "#3e6f9c"
+                  "background-color": "#457BAD"
                 },
-                "background-color": "#457bad",
+                "background-color": "RGBA(69,123,173,0.65)",
                 ":focus": {
-                  "background-color": "#3e6f9c"
+                  "background-color": "#457BAD"
                 },
                 "border-radius": "0px"
               },
@@ -201,12 +213,12 @@
             "styles": {
               "toggle": {
                 "font-weight": "bold",
-                "background-color": "#457bad",
+                "background-color": "RGBA(69,123,173,0.65)",
                 ":hover": {
-                  "background-color": "#3e6f9c"
+                  "background-color": "#457BAD"
                 },
                 ":focus": {
-                  "background-color": "#3e6f9c"
+                  "background-color": "#457BAD"
                 }
               }
             }

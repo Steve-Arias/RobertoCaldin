@@ -123,15 +123,27 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.shop-btn {
+.view-btn {
     margin-top: 220px;
     text-decoration: none !important;
     margin-right: auto;
     margin-left: auto;
 }
 
+.shop-btn {
+    margin-top: 150px;
+    text-decoration: none !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hide-btn {
+    display: none !important;
+}
+
+
 /* Policy Styles */
-.policy-section {
+.text-section {
     color: white;
     width: 60%;
     margin-right: auto;
@@ -139,14 +151,18 @@ nav ul li a:hover {
     margin-top: -170px;
 }
 
-.policy-section p,
+.text-section h1 {
+    font-weight: bold;
+}
+
+.text-section p,
 h1 {
-    line-height: 1.5em;
+    line-height: 1.8em;
     margin-bottom: 20px;
     font-size: .9em;
 }
 
-.policy-section .links ul {
+.text-section .links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -154,12 +170,12 @@ h1 {
 
 }
 
-.policy-section .links ul li {
+.text-section .links ul li {
     float: left;
 
 }
 
-.policy-section .links ul li a {
+.text-section .links ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -168,16 +184,11 @@ h1 {
 
 }
 
-.policy-section .links ul li a:hover {
+.text-section .links ul li a:hover {
 
     color: #457BAD;
 
 }
-
-.hide-btn {
-    display: none !important;
-}
-
 
 /* Contact Style */
 
