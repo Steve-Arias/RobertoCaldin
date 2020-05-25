@@ -131,10 +131,9 @@ nav ul li a:hover {
 }
 
 .shop-btn {
-    margin-top: 150px;
+    margin-top: -180px;
     text-decoration: none !important;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 820px;
 }
 
 .hide-btn {
