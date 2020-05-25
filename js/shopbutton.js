@@ -38,6 +38,7 @@
                 }
               },
               "button": {
+                "width": "110%",
                 "font-weight": "bold",
                 ":hover": {
                   "background-color": "#3e6f9c"
@@ -85,6 +86,7 @@
                 }
               },
               "button": {
+                "width": "110%",
                 "font-weight": "bold",
                 ":hover": {
                   "background-color": "#3e6f9c"
@@ -133,6 +135,7 @@
           "cart": {
             "styles": {
               "button": {
+                "width": "110%",
                 "font-weight": "bold",
                 ":hover": {
                   "background-color": "#3e6f9c"
