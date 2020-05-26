@@ -9,36 +9,63 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bg-animation.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <script src="./js/hambuger.js"></script>
     <script src="./js/viewbutton.js"></script>
+    <script src="./js/bg-animation.js"></script>
 </head>
 
 <body>
-    <section id="home">
-        <div class="background-wrap">
-            <div class="bg-element">
+    <div class="background-wrap">
 
+        <div class="bg-slide">
+            <div id="bg-content">
+
+                <img class="bg-child opaque" src="./img/bg-img/blacksand.jpg" alt="">
+
+
+                <img class="bg-child" src="./img/bg-img/background.png" alt="">
+
+                <img class="bg-child" src="./img/bg-img/blackwater.png" alt="">
             </div>
         </div>
-        <div class="content">
-            <div class="logo-header"><a href="index.html">ROBERTO CALDIN</a></div>
-            <header>
-                <nav class="nav">
-                    <div class="hide-desktop">
-                        <!-- <img src="./img/hamburger.svg" alt="toggle-menu" class="menu" id="menu"> -->
-                    </div>
-                    <ul class="show-desktop hide-mobile" id="nav">
-                        <li class="nav-li"><a href="index.html" class="active is-active"><span>Home</span></a></li>
-                        <li class="nav-li"><a href="shop.html" class=""><span>Shop</span></a></li>
-                        <li class="nav-li"><a href="about.html" class=""><span>About</span></a></li>
-                        <li class="nav-li"><a href="social.html" class=""><span>Social Media</span></a></li>
-                        <li class="nav-li"><a href="policy.html" class=""><span>Policy</span></a></li>
-                        <li class="nav-li"><a href="contact.html" class=""><span>Contact</span></a></li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="view-btn" id='product-component-1590368729361'></div>
+    </div>
+
+    <div class="content">
+        <div class="logo-header"><a href="index.html">ROBERTO CALDIN</a></div>
+        <div class="img-slider">
+            <img class="left-img" src="./img/bg-img/shirt2.png" alt="">
+            <img class="right-img" src="./img/bg-img/cotton.png" alt="">
         </div>
-    </section>
+        <header>
+            <nav class="nav">
+                <div class="hide-desktop">
+                    <div class="container-ham" id="menu" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li class="nav-li"><a href="index.html" class="active is-active"><span>Home</span></a></li>
+                    <li class="nav-li"><a href="shop.html" class=""><span>Shop</span></a></li>
+                    <li class="nav-li"><a href="about.html" class=""><span>About</span></a></li>
+                    <li class="nav-li"><a href="social.html" class=""><span>Social Media</span></a></li>
+                    <li class="nav-li"><a href="policy.html" class=""><span>Policy</span></a></li>
+                    <li class="nav-li"><a href="contact.html" class=""><span>Contact</span></a></li>
+                    <img class="ham-logo hide-desktop" src="./img/favicon/fav-desktop.ico" alt="">
+                </ul>
+            </nav>
+        </header>
+        <div class="social-media">
+            <img src="./img/social-icon/facebook.png" alt="">
+            <img src="./img/social-icon/instagram.png" alt="">
+            <img src="./img/social-icon/youtube.png" alt="">
+        </div>
+        <div class="view-btn" id='product-component-1590368729361'></div>
+    </div>
+
 </body>
 
 </html>

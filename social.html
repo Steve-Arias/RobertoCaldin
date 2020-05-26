@@ -9,6 +9,9 @@
     <link rel="shortcut icon" href="./img/favicon/fav-desktop.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <script src="./js/socialfeed.js"></script>
+    <script src="./js/hambuger.js"></script>
 </head>
 
 <body>
@@ -18,7 +21,11 @@
             <header>
                 <nav class="nav">
                     <div class="hide-desktop">
-                        <!-- <img src="./img/hamburger.svg" alt="toggle-menu" class="menu" id="menu"> -->
+                        <div class="container-ham" id="menu" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
                     </div>
                     <ul class="show-desktop hide-mobile" id="nav">
                         <li class="nav-li"><a href="index.html" class=""><span>Home</span></a></li>
@@ -28,10 +35,12 @@
                         </li>
                         <li class="nav-li"><a href="policy.html" class=""><span>Policy</span></a></li>
                         <li class="nav-li"><a href="contact.html" class=""><span>Contact</span></a></li>
+                        <img class="ham-logo hide-desktop" src="./img/favicon/fav-desktop.ico" alt="">
                     </ul>
                 </nav>
             </header>
             <div class="hide-btn" id='product-component-1590368729361'></div>
+            <div class="social-feed" id="insta-feed"> </div>
         </div>
     </section>
 </body>

@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="./img/favicon/fav-desktop.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <script src="./js/hambuger.js"></script>
 </head>
 
 <body>
@@ -18,7 +20,11 @@
             <header>
                 <nav class="nav">
                     <div class="hide-desktop">
-                        <!-- <img src="./img/hamburger.svg" alt="toggle-menu" class="menu" id="menu"> -->
+                        <div class="container-ham" id="menu" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
                     </div>
                     <ul class="show-desktop hide-mobile" id="nav">
                         <li class="nav-li"><a href="index.html" class=""><span>Home</span></a></li>
@@ -27,9 +33,15 @@
                         <li class="nav-li"><a href="social.html" class=""><span>Social Media</span></a></li>
                         <li class="nav-li"><a href="policy.html" class="active is-active"><span>Policy</span></a></li>
                         <li class="nav-li"><a href="contact.html" class=""><span>Contact</span></a></li>
+                        <img class="ham-logo hide-desktop" src="./img/favicon/fav-desktop.ico" alt="">
                     </ul>
                 </nav>
             </header>
+            <div class="social-media">
+                <img src="./img/social-icon/facebook.png" alt="">
+                <img src="./img/social-icon/instagram.png" alt="">
+                <img src="./img/social-icon/youtube.png" alt="">
+            </div>
             <div class="text-section">
                 <h1>PAYMENT METHOD</h1>
                 <p>
