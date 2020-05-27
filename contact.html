@@ -5,88 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberto Caldin</title>
-    <script src="./js/viewbutton.js"></script>
     <link rel="shortcut icon" href="./img/favicon/fav-desktop.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/hamburger.css">
-    <script src="./js/hambuger.js"></script>
 </head>
 
 <body>
-    <section id="home">
 
-        <div class="content">
-            <div class="logo-header"><a href="index.html">ROBERTO CALDIN</a></div>
-            <header>
-                <nav class="nav">
-                    <div class="hide-desktop">
-                        <div class="container-ham" id="menu" onclick="myFunction(this)">
-                            <div class="bar1"></div>
-                            <div class="bar2"></div>
-                            <div class="bar3"></div>
-                        </div>
+
+    <div class="content">
+        <div class="logo-header"><a href="index.html">ROBERTO CALDIN</a></div>
+        <header>
+            <nav class="nav">
+                <div class="hide-desktop">
+                    <div class="container-ham" id="menu" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
                     </div>
-                    <ul class="show-desktop hide-mobile" id="nav">
-                        <li class="nav-li"><a href="index.html" class=""><span>Home</span></a></li>
-                        <li class="nav-li"><a href="shop.html" class=""><span>Shop</span></a></li>
-                        <li class="nav-li"><a href="about.html" class=""><span>About</span></a></li>
-                        <li class="nav-li"><a href="social.html" class=""><span>Social Media</span></a>
-                        </li>
-                        <li class="nav-li"><a href="policy.html" class=""><span>Policy</span></a></li>
-                        <li class="nav-li"><a href="contact.html" class="active is-active"><span>Contact</span></a></li>
-                        <img class="ham-logo hide-desktop" src="./img/favicon/fav-desktop.ico" alt="">
-                    </ul>
-                </nav>
-            </header>
-            <div class="social-media">
-                <img src="./img/social-icon/facebook.png" alt="">
-                <img src="./img/social-icon/instagram.png" alt="">
-                <img src="./img/social-icon/youtube.png" alt="">
-            </div>
-            <div class="contact-sec">
-                <div class="container">
-                    <form action="" method="POST">
-                        <div class="form-container">
-                            <h1>CONTACT US</h1>
-                            <div class="form-content">
-                                <label for="txt-name">Name:</label>
-                                <input type="text" name="fullName" id="txt-name" placeholder="Full name" required>
-                            </div>
-                            <div class="form-content">
-                                <div class="custom-select-wrapper">
-                                    <div class="custom-select">
-                                        <div class="custom-select__trigger"><span>GENERAL INQUIRY</span>
-                                            <div class="arrow"></div>
-                                        </div>
-                                        <div class="custom-options">
-                                            <span class="custom-option selected" data-value="General">GENERAL
-                                                INQUIRY</span>
-                                            <span class="custom-option" data-value="Order">ORDER STATUS</span>
-                                            <span class="custom-option" data-value="Other">OTHER</span>
-                                        </div>
+                </div>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li class="nav-li"><a href="index.html" class=""><span>Home</span></a></li>
+                    <li class="nav-li"><a href="shop.html" class=""><span>Shop</span></a></li>
+                    <li class="nav-li"><a href="about.html" class=""><span>About</span></a></li>
+                    <li class="nav-li"><a href="social.html" class=""><span>Social Media</span></a>
+                    </li>
+                    <li class="nav-li"><a href="policy.html" class=""><span>Policy</span></a></li>
+                    <li class="nav-li"><a href="contact.html" class="active is-active"><span>Contact</span></a></li>
+                    <li><img class="ham-logo hide-desktop" src="./img/favicon/fav-desktop.ico" alt=""></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="social-media">
+            <a href="https://www.facebook.com/Roberto-Caldin-112481738842832/"><img src="./img/social-icon/facebook.png"
+                    alt=""></a>
+            <a href="https://www.instagram.com/robertocaldin/"><img src="./img/social-icon/instagram.png" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCS9J3x5RQdferzz-s7f-eLg"><img src="./img/social-icon/youtube.png"
+                    alt=""></a>
+        </div>
+        <div class="contact-sec">
+            <div class="container">
+                <form action="" method="POST">
+                    <div class="form-container">
+                        <h1>CONTACT US</h1>
+                        <div class="form-content">
+                            <label for="txt-name">Name:</label>
+                            <input type="text" name="fullName" id="txt-name" placeholder="Full name" required>
+                        </div>
+                        <div class="form-content">
+                            <div class="custom-select-wrapper">
+                                <div class="custom-select">
+                                    <div class="custom-select__trigger"><span>GENERAL INQUIRY</span>
+                                        <div class="arrow"></div>
+                                    </div>
+                                    <div class="custom-options">
+                                        <span class="custom-option selected" data-value="General">GENERAL
+                                            INQUIRY</span>
+                                        <span class="custom-option" data-value="Order">ORDER STATUS</span>
+                                        <span class="custom-option" data-value="Other">OTHER</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-content">
-                                <label for="txt-email">Email:</label>
-                                <input type="text" name="emailAddress" id="txt-email" placeholder="Email" required>
-                            </div>
-
-                            <div class=" form-content">
-                                <label>Message:</label>
-                                <textarea name="message" required></textarea>
-                            </div>
-                            <button class="message-btn" name="Submit">Send</button>
-
                         </div>
-                    </form>
-                </div>
+                        <div class="form-content">
+                            <label for="txt-email">Email:</label>
+                            <input type="text" name="emailAddress" id="txt-email" placeholder="Email" required>
+                        </div>
+
+                        <div class=" form-content">
+                            <label>Message:</label>
+                            <textarea name="message" required></textarea>
+                        </div>
+                        <button class="message-btn" name="Submit">Send</button>
+
+                    </div>
+                </form>
             </div>
-            <div class="hide-btn" id='product-component-1590368729361'></div>
-            <script src="./js/customselect.js"></script>
         </div>
-    </section>
+        <div class="hide-btn" id='product-component-1590533960562'></div>
+    </div>
+    <script src="./js/customselect.js"></script>
+    <script src="./js/hambuger.js"></script>
+    <script src="./js/viewbutton.js"></script>
 </body>
 
 </html>
