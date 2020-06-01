@@ -265,7 +265,7 @@ function placeButton() {
     })();
 }
 // When the user clicks on the button, open the modal
-btn.onclick = function () {
+btn.onclick = function (e) {
     modal.style.display = "block";
     if (count == 0) {
         placeButton();
