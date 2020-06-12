@@ -84,6 +84,17 @@ body {
     margin-left: auto;
     margin-top: -170px;
 }
+@media screen and (max-width: 1024px) {
+    .text-section {
+        color: white;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 100px;
+        /*hamburg switches at ~1024px*/
+    }
+  }
+  
 
 .text-section h1 {
     font-weight: bold;
@@ -129,6 +140,12 @@ h1 {
 .contact-sec {
     margin-top: -160px;
 }
+@media screen and (max-width: 1024px) {
+    .contact-sec {
+        margin-top: 100px;
+        /*hamburg switches at ~1024px*/
+    }
+  }
 
 .contact-sec form {
     background: black;

@@ -6,4 +6,4 @@ This repo contains the main app for the Roberto Caldin which can be found online
 
 # Significant Contributors
 - Eddie Ozuna
-
+- Jonathan Dong
